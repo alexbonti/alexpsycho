@@ -8,15 +8,35 @@
     <title>Hello World</title>
 
     <!-- Bootstrap -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="styles.css" rel="stylesheet">
 </head>
 
 <body>
+    <h1>Alex knows you Best!</h1>
     <div class="container">
-        <h1>Welcome to my Cloud.</h1>
-        
-    </div>
+        <div class="row">
+            <h2>Add some text and analyze it to get your profile</h2>
+        </div>
+        <div class="row">
+          <div class="col-sm">
+            <h3>Input</h3>
+            <textarea id="input" rows="4" cols="50">
+            </textarea>
+          </div>
+          <div class="col-sm">
+            <h3>Profile</h3>
+            <textarea id="output" rows="4" cols="50">
+            </textarea>        
+          </div>
+
+        </div>
+        <div class="row">
+            <button id="analyze" type="button" class="btn btn-primary btn-lg">Analyze</button>
+
+        </div>
+      </div>
+ 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
